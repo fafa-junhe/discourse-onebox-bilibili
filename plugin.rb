@@ -10,7 +10,7 @@
 class Onebox::Engine::BilibiliOnebox
   include Onebox::Engine
 
-  REGEX = /^https?:\/\/(www\.)?(bilibili.com)\/(video\/)(av|bv)(\d+)/
+  REGEX = /^https?:\/\/(www\.)?(bilibili.com)\/(video\/)(av|bv)(\w+)/i
   matches_regexp REGEX
 
   key = 'fZodR9XQDSUm21yCkr6zBqiveYah8bt4xsWpHnJE7jL5VG3guMTKNPAwcF'
