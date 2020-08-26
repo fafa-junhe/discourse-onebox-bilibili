@@ -6,7 +6,7 @@
 # authors: fafa_junhe
 # url: https://github.com/fafa-junhe/discourse-onebox-bilibili-1
 
-
+Onebox = Onebox
 module Onebox
   module Engine
     class BiliBiliOnebox
